@@ -17,6 +17,8 @@ jobs:
                   node-version: ${{ matrix.node-version }}
             - name: Setup
               run: |
+                git config --global user.email "huybery@gmail.com"
+                git config --global user.name "huybery"
                 sudo npm i -g hexo-cli
                 npm i
                 
