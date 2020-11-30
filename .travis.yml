@@ -4,8 +4,11 @@ node_js:
     - 12 
 cache: npm 
 branches: 
-    only: - master # build master branch only 
-    script: - hexo generate 
+    only: 
+        - master # build master branch only 
+    script:
+        - hexo clean
+        - hexo generate 
     deploy: 
         provider: pages 
         skip-cleanup: true 
