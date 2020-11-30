@@ -30,5 +30,4 @@ jobs:
                 
             - name: hexo deploy
               run: |
-                  hexo clean
                   hexo g -d
