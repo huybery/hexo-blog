@@ -1,0 +1,28 @@
+name: HexoCI
+on:
+    push:
+        branches:
+            - gh-pages
+
+jos:
+    build:
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [12.x]
+
+        steps:
+            - name: Checkout source
+              uses: actions/checkout@v1
+              with:
+                  ref: hexo
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v1
+              with:
+                  node-version: ${{ matrix.node-version }}
+            - name: hexo deploy
+              run:
+                  hexo clean
+                  hexo generate
+                  hexo deploy
