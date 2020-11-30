@@ -2,7 +2,7 @@ name: HexoCI
 on:
     push:
         branches:
-            - gh-pages
+            - master
 
 jobs:
     build:
