@@ -15,21 +15,22 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
+  #about: /about/
   articles: /archives/
+  research: /research/
   projects: projects_url
-
+  search: /search/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
-social_links:
-  github: http://github.com/huybery
+# social_links:
+  #  github: http://github.com/huybery
   #  twitter: /
   #  facebook: /
   #  linkedin: /
-  mail: mailto:huybery@email.com
+  #  mail: mailto:huybery@email.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud

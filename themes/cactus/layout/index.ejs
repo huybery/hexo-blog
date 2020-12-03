@@ -71,3 +71,16 @@
   </ul>
 </section>
 <% } %>
+
+<% if (site.data.activites) { %>
+<section id="activites">
+  <span class="h1"> Professional Activities </span>
+  <ul class="project-list">
+    <% for(var obj in site.data.activites){ %>
+      <li class="project-item">
+        <%= site.data.activites[obj].name %>: <%- markdown(site.data.activites[obj].desc) %>
+      </li>
+    <% } %>
+  </ul>
+</section>
+<% } %>
