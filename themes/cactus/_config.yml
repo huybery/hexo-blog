@@ -17,8 +17,9 @@ nav:
   home: /
   #about: /about/
   articles: /archives/
-  research: /research/
-  projects: projects_url
+  paper: /categories/paper
+  #projects: projects_url
+  #categoy: /categories/
   search: /search/
 
 # Links to your social media accounts.
