@@ -5,7 +5,7 @@ tags:
 - blog
 - test
 categories:
-- other
+- blog
 
 ---
 

@@ -2,11 +2,11 @@
     {
        "name":"🙈 VisualizingCNN",
        "url":"https://github.com/huybery/VisualizingCNN",
-       "desc":"A PyTorch implementation of the paper \"Visualizing and understanding convolutional networks (ECCV 2014)\" "
+       "desc":"A PyTorch implementation of the paper \"Visualizing and understanding convolutional networks.\" ECCV 2014 "
     },
     {
        "name":"🎲 MvDSCN",
        "url":"https://github.com/huybery/MvDSCN",
-       "desc":"A Tensorflow Implementation of the paper \"Multi-view Deep Subspace Clustering Networks\" "
+       "desc":"A Tensorflow Implementation of the paper \"Multi-view Deep Subspace Clustering Networks.\" IEEE Transactions on Cybernetics"
     }
 ]

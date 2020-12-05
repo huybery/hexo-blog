@@ -1,8 +1,7 @@
 nav:
   home: Home
   about: About
-  paper: Paper
-  articles: Blog
+  articles: Articles
   tag: Tag
   category: Category
   projects: Projects
@@ -18,7 +17,7 @@ index:
   articles: Writing
   projects: Projects
   topics: Topics
-  most_recent: Most recent
+  most_recent: Most Recent
 
 post:
   desktop:

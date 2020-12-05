@@ -16,11 +16,12 @@ direction: ltr
 nav:
   home: /
   #about: /about/
-  articles: /archives/
-  paper: /categories/paper
+  #articles: /archives/
+  Blog: /categories/blog
+  Paper: /categories/paper
   #projects: projects_url
   #categoy: /categories/
-  search: /search/
+  Search: /search/
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
@@ -43,7 +44,7 @@ tags_overview: false
 #   - post_count: whether to show only the x most recent posts.
 #   - sort_updated: sort posts by last modification date instead of creation date.
 posts_overview:
-  show_all_posts: false
+  show_all_posts: true
   post_count: 10
   sort_updated: false
 
@@ -146,8 +147,8 @@ disqus:
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
-  enabled: false
-  id: UA-86660611-1
+  enabled: true
+  id: UA-85439210-2
 
 # Fill in your Baidu Analytics tracking ID to enable Baidu Analytics.
 baidu_analytics:
